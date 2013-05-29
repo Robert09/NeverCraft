@@ -1,8 +1,11 @@
 package com.nevercraft.src;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.Configuration;
 
 import com.nevercraft.src.blocks.Blocks;
+import com.nevercraft.src.blocks.WorldGenNeverCraft;
+import com.nevercraft.src.creativetabs.TabNeverCraft;
 import com.nevercraft.src.lib.BlockIds;
 import com.nevercraft.src.lib.Reference;
 
@@ -15,6 +18,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class NeverCraft {
@@ -25,6 +29,9 @@ public class NeverCraft {
     // Other Block Ids
     furgalOreID
     ;
+    
+    // Creative Tabs
+    public static CreativeTabs tabNeverCraft = new TabNeverCraft(CreativeTabs.getNextID(),"DeverionXTabGems");
     
     @Instance(Reference.MOD_ID)
     public static NeverCraft instance;
@@ -50,6 +57,8 @@ public class NeverCraft {
     @Init
     public static void init(FMLInitializationEvent event) {
         Blocks block = new Blocks();
+        
+        GameRegistry.registerWorldGenerator(new WorldGenNeverCraft());
         
         proxy.registerTileEntities();
     }
