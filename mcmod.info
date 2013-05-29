@@ -1,0 +1,17 @@
+[
+{
+  "modid": "pressureplates",
+  "name": "Pressure Plates",
+  "description": "Tons of new and cool pressure plates!",
+  "version": "pre 0.1",
+  "mcversion": "1.5.2",
+  "logoFile": "/pressureplates_logo.png",
+  "url": "http://youtube.com/tutforminecraft/",
+  "updateUrl": "",
+  "authors": ["O3Bubbles09"],
+  "credits": "Made by O3Bubbles09",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
