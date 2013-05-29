@@ -1,8 +1,8 @@
 package com.nevercraft.src.lib;
 
 public class Reference {
-    public static final String MOD_ID = "pressureplates";
-    public static final String MOD_NAME = "Pressure Plates";
+    public static final String MOD_ID = "nevercraft";
+    public static final String MOD_NAME = "NeverCraft";
     public static final String MOD_VERSION = "pre 0.1";
     
     //Proxys

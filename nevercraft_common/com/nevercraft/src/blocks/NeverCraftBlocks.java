@@ -1,5 +1,7 @@
 package com.nevercraft.src.blocks;
 
+import com.nevercraft.src.lib.Reference;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -16,7 +18,7 @@ public class NeverCraftBlocks extends Block {
     }
 
     @SideOnly(Side.CLIENT)
-    public void func_94332_a(IconRegister par1IconRegister) {
-        this.blockIcon = par1IconRegister.registerIcon("Blocks/" + this.blockTexture + ".png");
+    public void registerIcons(IconRegister par1IconRegister) {
+        blockIcon = par1IconRegister.registerIcon(Reference.MOD_ID.toString() + ":" + blockTexture);
     }
 }

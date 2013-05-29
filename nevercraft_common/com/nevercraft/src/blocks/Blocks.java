@@ -40,7 +40,7 @@ public class Blocks {
         glowstonePlate = new ModPlates(NeverCraft.glowstonePlateID, "lightgem", Material.glass, EnumMobType.players).setHardness(0.3F).setStepSound(Block.soundGlassFootstep).setLightValue(1.0F);
         
         // Other Blocks.
-        frugalOre = new NeverCraftBlocks(NeverCraft.furgalOreID, Material.ground, "FrugalOre").setHardness(4.0F).setCreativeTab(NeverCraft.tabNeverCraft).setLightValue(0.2F).setUnlocalizedName("furgalOre");
+        frugalOre = new NeverCraftBlocks(NeverCraft.furgalOreID, Material.ground, "FrugalOre").setHardness(4.0F).setCreativeTab(NeverCraft.tabNeverCraft).setLightValue(0.2F).setUnlocalizedName("FrugalOre");
         
         initRecipes();
         addName();
