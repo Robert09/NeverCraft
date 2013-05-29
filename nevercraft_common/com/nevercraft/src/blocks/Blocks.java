@@ -23,13 +23,6 @@ public class Blocks {
     frugalOre
     ;
     
-    public static NeverCraft plates;
-    public static World world;
-    
-    public static int x, y, z;
-    
-    private String camo;
-    
     public Blocks() {
         init();
     }
