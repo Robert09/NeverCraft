@@ -1,14 +1,12 @@
-package com.nevercraft.src;
+package NeverCraft.nevercraft_common.com.nevercraft.src;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.Configuration;
-
-import com.nevercraft.src.blocks.Blocks;
-import com.nevercraft.src.blocks.WorldGenNeverCraft;
-import com.nevercraft.src.creativetabs.TabNeverCraft;
-import com.nevercraft.src.lib.BlockIds;
-import com.nevercraft.src.lib.Reference;
-
+import NeverCraft.nevercraft_common.com.nevercraft.src.blocks.Blocks;
+import NeverCraft.nevercraft_common.com.nevercraft.src.blocks.WorldGenNeverCraft;
+import NeverCraft.nevercraft_common.com.nevercraft.src.creativetabs.TabNeverCraft;
+import NeverCraft.nevercraft_common.com.nevercraft.src.lib.BlockIds;
+import NeverCraft.nevercraft_common.com.nevercraft.src.lib.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;

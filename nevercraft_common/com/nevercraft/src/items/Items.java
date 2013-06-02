@@ -1,4 +1,4 @@
-package com.nevercraft.src.items;
+package NeverCraft.nevercraft_common.com.nevercraft.src.items;
 
 public class Items {
     public void init() {

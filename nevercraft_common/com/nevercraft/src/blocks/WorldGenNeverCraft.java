@@ -1,15 +1,11 @@
-package com.nevercraft.src.blocks;
+package NeverCraft.nevercraft_common.com.nevercraft.src.blocks;
 
-import cpw.mods.fml.common.IWorldGenerator;
 import java.util.Random;
 
-import com.nevercraft.src.NeverCraft;
-
-import net.minecraft.block.Block;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldProvider;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+import cpw.mods.fml.common.IWorldGenerator;
 
 public class WorldGenNeverCraft
   implements IWorldGenerator

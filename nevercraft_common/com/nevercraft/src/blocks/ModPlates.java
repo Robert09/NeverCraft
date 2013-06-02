@@ -1,4 +1,4 @@
-package com.nevercraft.src.blocks;
+package NeverCraft.nevercraft_common.com.nevercraft.src.blocks;
 
 import java.util.Iterator;
 import java.util.List;

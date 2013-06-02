@@ -1,19 +1,16 @@
-package com.nevercraft.src.blocks;
+package NeverCraft.nevercraft_common.com.nevercraft.src.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.EnumMobType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
-
-import com.nevercraft.src.NeverCraft;
-import com.nevercraft.src.lib.Strings;
-
+import NeverCraft.nevercraft_common.com.nevercraft.src.NeverCraft;
+import NeverCraft.nevercraft_common.com.nevercraft.src.lib.Strings;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class Blocks {
+	
     // Pressure Plates.
     public static Block obsidianPlate,
     glowstonePlate,

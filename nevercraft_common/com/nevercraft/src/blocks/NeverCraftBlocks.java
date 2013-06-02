@@ -1,12 +1,11 @@
-package com.nevercraft.src.blocks;
+package NeverCraft.nevercraft_common.com.nevercraft.src.blocks;
 
-import com.nevercraft.src.lib.Reference;
-
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
+import NeverCraft.nevercraft_common.com.nevercraft.src.lib.Reference;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class NeverCraftBlocks extends Block {
     private String blockTexture;

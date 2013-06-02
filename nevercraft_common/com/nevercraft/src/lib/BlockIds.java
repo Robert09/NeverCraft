@@ -1,4 +1,4 @@
-package com.nevercraft.src.lib;
+package NeverCraft.nevercraft_common.com.nevercraft.src.lib;
 
 public class BlockIds {
     private static final int blockID =  2000; 

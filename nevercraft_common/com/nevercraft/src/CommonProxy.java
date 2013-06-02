@@ -1,4 +1,4 @@
-package com.nevercraft.src;
+package NeverCraft.nevercraft_common.com.nevercraft.src;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
